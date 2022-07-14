@@ -22,7 +22,7 @@ class Logo extends StatelessWidget {
 
             const Image(image: AssetImage('assets/tag-logo.png')),
             const SizedBox(height: 20),
-            Text( this.titulo, style: TextStyle(fontSize: 30),)
+            Text( this.titulo, style: const TextStyle(fontSize: 30),)
 
           ],
         ),
